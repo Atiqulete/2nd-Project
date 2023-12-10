@@ -1,0 +1,24 @@
+PS D:\Python Git> git init
+Initialized empty Git repository in D:/Python Git/.git/
+PS D:\Python Git> git add .
+PS D:\Python Git> git commit -m "Frist Code"
+[master (root-commit) c9c48e7] Frist Code
+ 1 file changed, 784 insertions(+)
+ create mode 100644 Python final demo.py
+PS D:\Python Git> git status
+On branch master
+nothing to commit, working tree clean
+PS D:\Python Git> git branch -M main
+PS D:\Python Git> git remote add origin https://github.com/Atiqulete/2nd-Project.git
+PS D:\Python Git>  git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 3.76 KiB | 3.76 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Atiqulete/2nd-Project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\Python Git>
